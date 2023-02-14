@@ -1,0 +1,88 @@
+body {
+}
+
+.principal {
+	background: #CCCCCC;
+	padding: 30px;
+}
+
+.titulo-principal{
+	position: relative;
+	padding-left: 0px;
+	top: 8px;
+	right: 15px;
+	left: 10px;
+	width: 940px;
+}
+
+.caixa-principal {
+	display: inline;
+	position: relative;
+	width: 940px; /* largura padrão usada na web */
+	margin: 0 0 50px auto; /* topo, direita, baixo, esquerda / auto significa automático */
+}
+
+nav {
+	position: absolute;
+	top: 18px;
+	right: 15px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px; /* topo, direita, baixo, esquerda */
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+#banner { /* "#" utilizado para referenciar identificador */
+	width: 100%;
+}
+
+.titulo-centralizado {
+	text-align: center;
+}
+
+p { 
+	text-align: center;
+}
+
+
+#missao {
+	font-size: 20px;
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.itens { /* o "." é utilizado para referenciar classes*/
+	font-style: italic;
+}
+
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px; /* espaçamento/margem interna */
+}
+
+
+.lista-itens {
+	display: inline-block; /* o display inline block ocupa apenas o tamanho do conteúdo permitindo que insira outros elementos próximos a ele */
+	vertical-align: top;
+	width: 20%; /* largura */
+	margin-right: 15%;	
+}
+
+.imagembeneficios {
+	width: 50%;
+}
